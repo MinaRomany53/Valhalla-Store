@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Valhalla Store</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Valhalla Store Website" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Mina Romany" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./imgs/icons8-game-controller-sf-yellow-filled-32.png"
+      type="image/x-icon"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--Normailze helpful style sheet-->
+    <link rel="stylesheet" href="./Css/Normalize.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="./Css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header-->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="home.html">
+            <div class="logo__name">
+              Valhalla<span class="yellow">Store</span>
+            </div>
+            <img src="./imgs/icons8-game-controller-64.png" alt="logo-icon" />
+          </a>
+        </div>
+        <button class="mobile_btn" id="mobile_btn" data-state="open">
+          <i class="fa-solid fa-bars icon"></i>
+        </button>
+        <ul class="nav hidden">
+          <li class="link-item">
+            <a href="tours.html" class="link">Games</a>
+          </li>
+          <li class="link-item">
+            <a href="#" class="link">Digital Products</a>
+          </li>
+          <li class="link-item">
+            <a href="#" class="link">Others </a>
+          </li>
+          <li class="link-item">
+            <a href="#" class="link">Contact Us </a>
+          </li>
+          <li class="link-item">
+            <a href="login.html" class="link">Login</a>
+          </li>
+          <li class="link-item">
+            <a href="signup.html" class="btn sign-btn link">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header-->
+
+    <!-- Start Games Images Slider -->
+    <section class="hero">
+      <div class="container">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./imgs/img-1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./imgs/img-2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./imgs/img-3.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./imgs/img-4.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./imgs/img-5.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./imgs/img-6.jpg" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <!-- End Games Images Slider -->
+
+    <!-- Start Best Seller Section -->
+    <section class="best__seller">
+      <div class="container">
+        <div class="section__header">
+          <h2>Best Seller</h2>
+        </div>
+        <div class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Best Seller Section -->
+
+    <div class="overlay"></div>
+
+    <!-- Script File -->
+    <script src="./JS/navbar.js"></script>
+    <script src="./JS/slider.js"></script>
+  </body>
+</html>

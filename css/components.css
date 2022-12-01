@@ -1,0 +1,31 @@
+/* Buttons */
+.btn {
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+.btn:hover {
+  box-shadow: none;
+}
+
+/* Overlay */
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(41, 44, 48);
+  overflow: hidden;
+  transition: all 0.3s;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .overlay {
+    width: 0% !important;
+  }
+}
